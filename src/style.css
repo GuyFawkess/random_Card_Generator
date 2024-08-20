@@ -1,1 +1,76 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body{
+    background-color: green;
+    
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.card {
+    border: 1px solid black;
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.top-club {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 80px;
+}
+
+.bottom-club {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+    
+}
+
+.number {
+    font-size: 70px;
+}
+
+.heart {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+    color: red;
+}
+.diamond {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+    color: red;
+}
+.spade {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+}
+.club {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80px;
+}

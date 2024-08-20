@@ -7,5 +7,9 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
+    content: "♥";
+  const heart = document.querySelector(".heart");
+  heart.innerHTML = 
+
   console.log("Hello Rigo from the console!");
 };
