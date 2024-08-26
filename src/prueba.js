@@ -1,5 +1,5 @@
-window.onload = function() {
-    function randomizeCard () {
+window.onload = function () {
+    function randomizeCard() {
         // Clear previous suit classes
         const suits = ['heart', 'diamond', 'club', 'spade'];
         suits.forEach(suit => {
@@ -12,9 +12,9 @@ window.onload = function() {
             let numbers = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
             return numbers[Math.floor(Math.random() * numbers.length)];
         };
-        
+
         document.querySelector('.number').innerHTML = randomNumber();
-        
+
         // Random suit
         switch (Math.floor(Math.random() * 4)) {
             case 0:
