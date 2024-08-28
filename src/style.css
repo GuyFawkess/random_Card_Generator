@@ -24,7 +24,15 @@ button {
   justify-content: center;
   position: relative;
   border-radius: 10px;
-  margin-top: 5%;
+}
+
+.inputs {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
 }
 
 .top-club {

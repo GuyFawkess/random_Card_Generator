@@ -42,5 +42,23 @@ window.onload = function () {
 
     randomizeCard();
 
+    // poniendo el set time lo puse a 5 seg para que no tengas que esperar tanto x)
+
+    setInterval(randomizeCard, 10000);
+
+
+    // el boton
+
     document.getElementById('randomizeButton').addEventListener('click', randomizeCard);
+
+    // INPUTS
+
+    document.querySelector('#widthInput').addEventListener('input', function () {
+        document.querySelector('.card').style.width = this.value + 'px';
+    });
+
+    document.querySelector('#heightInput').addEventListener('input', function () {
+        document.querySelector('.card').style.height = this.value + 'px';
+    });
+
 };
